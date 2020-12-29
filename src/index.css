@@ -36,12 +36,12 @@
 }
 
 .modal__content {
-    padding: 20px;
+    padding: 30px;
     background-color: white;
     transform: scale(0.5);
     max-width: 100%;
-    width: 614px;
-    height: 600px;
+    width: 950px;
+    height: 640px;
 }
 
 .modal.active {
@@ -55,31 +55,50 @@
 
 .inp {
     margin-top: 29px;
-    height: 29px;
+    height: 39px;
     width: 580px;
     max-width: 100%;
-    font-size: 16px;
+    font-size: 19px;
     padding-left: 13px;
 }
 
 .inptwo {
-    height: 29px;
+    height: 39px;
     width: 580px;
     max-width: 100%;
-    font-size: 16px;
+    font-size: 19px;
     padding-left: 13px;
     margin-top: 29px;
 }
 
 .btn {
-    height: 31px;
+    height: 44px;
     width: 600px;
     max-width: 100%;
-    font-size: 16px;
+    font-size: 19px;
     padding-left: 13px;
     margin-top: 29px;
     color: white;
     background-color: dodgerblue;
+    cursor: pointer;
+}
+
+.comment {
+    top: 30px;
+    left: 666px;
+    position: fixed;
+    font-size: 24px;
+    line-height: 70px;
+    font-family: "Roboto", "sans-serif";
+    font-weight: 400;
+}
+
+.close {
+    top: 27px;
+    left: 940px;
+    position: fixed;
+    font-size: 40px;
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 450px) {

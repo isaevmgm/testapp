@@ -5,11 +5,16 @@ import Image from "./Image";
 function Images(props) {
   const images = useSelector((state) => state.images.items);
 
+  const loading = useSelector((state) => state.images.loading);
+
   return (
     <div className="img">
-      {images.map((image) => {
-        return <Image key={image.id} image={image} />;
-      })}
+      {loading
+        ? "Загрузка"
+        : images.map((image) => {
+            return <Image key={image.id} image={image} />;
+          })
+      }
     </div>
   );
 }
