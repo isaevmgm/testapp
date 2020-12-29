@@ -3,7 +3,10 @@ import Bigi from "./Bigi";
 import { useState } from "react";
 
 function ModalWindow({ active, setActive }) {
-  const [comments, setComment] = useState([{ comment: "" }]);
+  const [comments, setComment] = useState([
+    { comment: "fffff" },
+    { comment: "ggggg" },
+  ]);
 
   const [text, setText] = useState("");
 

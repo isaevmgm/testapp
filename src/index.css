@@ -102,10 +102,179 @@
 }
 
 @media only screen and (max-width: 450px) {
+    .btn {
+        width: 300px;
+        height: 34px;
+        font-size: 14px;
+    }
+    .inp {
+        margin-top: 170px;
+        width: 280px;
+        height: 30px;
+        font-size: 14px;
+    }
+    .inptwo {
+        width: 280px;
+        height: 30px;
+        font-size: 14px;
+    }
+    .modal__content {
+        width: 100%;
+    }
+    .modal {
+        width: 360px;
+        text-align: center;
+    }
+    .modalimg {
+        width: 360px;
+        height: 220px;
+    }
+    .close {
+        top: 19px;
+        left: 350px;
+        position: fixed;
+        font-size: 40px;
+        cursor: pointer;
+        color: gray;
+    }
+    .comment {
+        top: 270px;
+        left: 70px;
+        position: fixed;
+        font-size: 14px;
+        font-family: "Roboto", "sans-serif";
+        font-weight: 400;
+        line-height: 40px;
+        text-align: start;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.main {
+    width: 1140px;
+    margin: auto;
+    max-width: 100%;
+}
+
+.call {
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.img {
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imag {
+    padding-bottom: 40px;
+    padding-top: 30px;
+}
+
+.modal {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.3);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.modal__content {
+    padding: 30px;
+    background-color: white;
+    transform: scale(0.5);
+    max-width: 100%;
+    width: 950px;
+    height: 640px;
+}
+
+.modal.active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.modal__content.active {
+    transform: scale(1);
+}
+
+.inp {
+    margin-top: 29px;
+    height: 39px;
+    width: 580px;
+    max-width: 100%;
+    font-size: 19px;
+    padding-left: 13px;
+}
+
+.inptwo {
+    height: 39px;
+    width: 580px;
+    max-width: 100%;
+    font-size: 19px;
+    padding-left: 13px;
+    margin-top: 29px;
+}
+
+.btn {
+    height: 44px;
+    width: 600px;
+    max-width: 100%;
+    font-size: 19px;
+    padding-left: 13px;
+    margin-top: 29px;
+    color: white;
+    background-color: dodgerblue;
+    cursor: pointer;
+}
+
+.comment {
+    top: 30px;
+    left: 666px;
+    position: fixed;
+    font-size: 24px;
+    line-height: 70px;
+    font-family: "Roboto", "sans-serif";
+    font-weight: 400;
+}
+
+.close {
+    top: 27px;
+    left: 940px;
+    position: fixed;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 450px) {
     .btn, .inp, .inptwo, .modal__content {
         width: 100%;
     }
-}
+}*/
 
 
 

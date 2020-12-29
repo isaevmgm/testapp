@@ -6,7 +6,7 @@ function Bigi(props) {
 
   return (
     <div className="bigImg">
-      <img src={bigimg.url} alt="b" />
+      <img className="modalimg" src={bigimg.url} alt="b" />
     </div>
   );
 }
